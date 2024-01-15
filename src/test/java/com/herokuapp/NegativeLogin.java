@@ -60,5 +60,6 @@ public class NegativeLogin {
         Assert.assertTrue(errorMessage.getText().contains(invalidPasswordMessageContent));
 
         driver.close();
+
     }
 }
