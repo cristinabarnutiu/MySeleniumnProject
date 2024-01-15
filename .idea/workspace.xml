@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a3e9d45-2ace-4b56-86c1-646b7ceb3c23" name="Changes" comment="curs 10 ianuarie 2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/NegativeLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/herokuapp/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,17 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng.xml">
+    <configuration name="C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumnProject" />
       <extension name="coverage">
@@ -82,8 +94,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NegativeLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.NegativeLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeLogin.loginWithInvalidPassdword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.NegativeLogin" />
+      <option name="METHOD_NAME" value="loginWithInvalidPassdword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.NegativeLogin" />
+        <item itemvalue="TestNG.NegativeLogin.loginWithInvalidPassdword" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.login" />
       </list>
@@ -112,12 +162,24 @@
       <option name="project" value="LOCAL" />
       <updated>1704913683567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="curs 10 ianuarie 2024">
+      <created>1705329389147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705329389147</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 2" />
     <MESSAGE value="curs 10 ianuarie 2024" />
     <option name="LAST_COMMIT_MESSAGE" value="curs 10 ianuarie 2024" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MySeleniumnProject$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1705330608675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.herokuapp.*</FILTER>
+    </SUITE>
   </component>
 </project>
