@@ -18,19 +18,19 @@ public class LoginTest {
         driver.get(url);
         driver.manage().window().maximize();
 
-        System.out.println("Asteapta 3 secunde");
+        System.out.println("Asteapta 2 secunde");
         sleep(2000);
 
 
         //2. click username & enter user: tomsmith
-        System.out.println("Username");
+        System.out.println("Introdu username");
 
         WebElement usernameInput = driver.findElement(By.id("username"));
         usernameInput.sendKeys("tomsmith");
         sleep(2000);
 
         //3. click password & enter "SuperSecretPassword!"
-        System.out.println("Parola");
+        System.out.println("Introdu parola");
         WebElement passwordInput = driver.findElement(By.id("password"));
         passwordInput.sendKeys("SuperSecretPassword!");
         sleep(2000);
@@ -40,6 +40,8 @@ public class LoginTest {
         WebElement loginButton = driver.findElement(By.className("radius"));
         //WebElement loginButton = driver.findElement(By.name("button"));
         loginButton.click();
+
+        System.out.println("Asteapta 2 secunde");
         sleep(2000);
 
         //Expected results: "Welcome to the Secure Area" is displayed
@@ -49,15 +51,18 @@ public class LoginTest {
         Assert.assertTrue(secureAreaSubheader.isDisplayed());
         Assert.assertEquals(subheaderContent,secureAreaSubheader.getText());
 
+        //Verifica linkul pe care suntem redirectionati
+        System.out.println("Verifica linkul pe care suntem redirectionati");
         String secureUrl = "https://the-internet.herokuapp.com/secure";
         Assert.assertEquals(driver.getCurrentUrl(),secureUrl);
 
+        //Verifica mesajul de succes
+        System.out.println("Verifica mesajul de succes");
         WebElement successMessage = driver.findElement(By.id("flash"));
         String successMessageContent = "You logged into a secure area!";
         Assert.assertTrue(successMessage.getText().contains(successMessageContent));
 
         //Inchide pagina
-
         System.out.println("Inchide pagina");
         driver.close();
     }
