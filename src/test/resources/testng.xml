@@ -12,4 +12,10 @@
             <class name="com.herokuapp.NegativeLogin"/>
         </classes>
     </test>
+
+    <test name="logout">
+        <classes>
+            <class name="com.herokuapp.LogoutTest"/>
+        </classes>
+    </test>
 </suite>
