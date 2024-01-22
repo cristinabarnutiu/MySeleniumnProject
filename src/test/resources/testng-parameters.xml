@@ -40,6 +40,11 @@
         </classes>
     </test>
 
+    <test name="Dropdown">
+        <classes>
+            <class name="com.herokuapp.DropdownTest"/>
+        </classes>
+    </test>
 
 
 </suite>

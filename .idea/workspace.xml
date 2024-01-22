@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3e9d45-2ace-4b56-86c1-646b7ceb3c23" name="Changes" comment="curs 15 ianuarie 2024">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/LogoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng-parameters.xml" afterDir="false" />
+    <list default="true" id="7a3e9d45-2ace-4b56-86c1-646b7ceb3c23" name="Changes" comment="curs 17 ianuarie 2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/CheckboxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/DropdownTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/herokuapp/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/herokuapp/NegativeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/NegativeLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-parameters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-parameters.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng-parameters.xml">
+  <component name="RunManager" selected="TestNG.CheckboxTest.uncheckAll">
     <configuration name="C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng-parameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumnProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-parameters.xml" />
@@ -61,17 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumnProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckboxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumnProject" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +69,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.herokuapp" />
-      <option name="MAIN_CLASS_NAME" value="com.herokuapp.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.CheckboxTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -88,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckboxTest.checkAll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumnProject" />
       <extension name="coverage">
         <pattern>
@@ -97,26 +86,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.herokuapp" />
-      <option name="MAIN_CLASS_NAME" value="com.herokuapp.NegativeLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegativeLogin.loginWithInvalidUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumnProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.herokuapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.herokuapp" />
-      <option name="MAIN_CLASS_NAME" value="com.herokuapp.NegativeLogin" />
-      <option name="METHOD_NAME" value="loginWithInvalidUser" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.CheckboxTest" />
+      <option name="METHOD_NAME" value="checkAll" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckboxTest.uncheckAll" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.CheckboxTest" />
+      <option name="METHOD_NAME" value="uncheckAll" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.DropdownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -125,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckboxTest.uncheckAll" />
+        <item itemvalue="TestNG.CheckboxTest.checkAll" />
+        <item itemvalue="TestNG.CheckboxTest" />
+        <item itemvalue="TestNG.DropdownTest" />
         <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng-parameters.xml" />
-        <item itemvalue="TestNG.NegativeLogin" />
-        <item itemvalue="TestNG.NegativeLogin.loginWithInvalidUser" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -177,14 +184,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705341706561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="curs 17 ianuarie 2024">
+      <created>1705517777258</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705517777258</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 2" />
     <MESSAGE value="curs 10 ianuarie 2024" />
     <MESSAGE value="curs 15 ianuarie 2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="curs 15 ianuarie 2024" />
+    <MESSAGE value="curs 17 ianuarie 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs 17 ianuarie 2024" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MySeleniumnProject$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1705330608675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -25,7 +25,6 @@ public class LoginTest {
             case "firefox": driver = new FirefoxDriver();break;
             default:driver = new ChromeDriver();
         }
-
         driver.get(url);
         driver.manage().window().maximize();
     }
