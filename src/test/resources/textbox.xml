@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite3" verbose="1">
+
+    <test name="Test 1">
+        <parameter name ="name" value ="Ion Popescu"/>
+        <classes>
+            <class name="com.demoqa.TestboxTest"/>
+        </classes>
+    </test>
+
+</suite>
