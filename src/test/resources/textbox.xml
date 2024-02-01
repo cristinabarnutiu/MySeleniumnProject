@@ -5,6 +5,24 @@
     <test name="Test 1">
         <parameter name ="name" value ="Ion Popescu"/>
         <classes>
+            <class name="com.demoqa.TestboxTest">
+            <methods>
+            <exclude name="fillInForm" />
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test 2">
+        <parameter name ="name" value ="Andrei Ionescu"/>
+        <classes>
+            <class name="com.demoqa.TestboxTest"/>
+        </classes>
+    </test>
+
+    <test name="Test 3">
+        <parameter name ="name" value ="Elena Pop"/>
+        <classes>
             <class name="com.demoqa.TestboxTest"/>
         </classes>
     </test>

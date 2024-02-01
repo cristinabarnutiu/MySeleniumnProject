@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3e9d45-2ace-4b56-86c1-646b7ceb3c23" name="Changes" comment="curs 22 ianuarie 2024">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/KeyPressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/textbox.xml" afterDir="false" />
+    <list default="true" id="7a3e9d45-2ace-4b56-86c1-646b7ceb3c23" name="Changes" comment="curs 29 ianuarie 2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/AlertsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/WaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/UploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TestboxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestboxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/textbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/textbox.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,62 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.KeyPressTest.pressKey">
-    <configuration name="C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/textbox.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumnProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/textbox.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckboxTest.uncheckAll" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumnProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.herokuapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.herokuapp" />
-      <option name="MAIN_CLASS_NAME" value="com.herokuapp.CheckboxTest" />
-      <option name="METHOD_NAME" value="uncheckAll" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyPressTest.pressKey" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MySeleniumnProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.herokuapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.herokuapp" />
-      <option name="MAIN_CLASS_NAME" value="com.herokuapp.KeyPressTest" />
-      <option name="METHOD_NAME" value="pressKey" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestboxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cristina\IdeaProjects\MySeleniumnProject\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UploadTest">
+    <configuration name="AlertsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumnProject" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +68,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.TestboxTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.AlertsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,7 +76,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestboxTest.fillInForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/textbox.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/textbox.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.UploadTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTest.testUpload" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MySeleniumnProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.UploadTest" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MySeleniumnProject" />
       <extension name="coverage">
         <pattern>
@@ -122,22 +140,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.TestboxTest" />
-      <option name="METHOD_NAME" value="fillInForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.WaitTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.AlertsTest" />
+      <item itemvalue="TestNG.UploadTest" />
+      <item itemvalue="TestNG.UploadTest.testUpload" />
+      <item itemvalue="TestNG.WaitTest" />
+      <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/textbox.xml" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.KeyPressTest.pressKey" />
+        <item itemvalue="TestNG.UploadTest" />
+        <item itemvalue="TestNG.UploadTest.testUpload" />
+        <item itemvalue="TestNG.WaitTest" />
         <item itemvalue="TestNG.C:/Users/cristina/IdeaProjects/MySeleniumnProject/src/test/resources/textbox.xml" />
-        <item itemvalue="TestNG.TestboxTest.fillInForm" />
-        <item itemvalue="TestNG.TestboxTest" />
-        <item itemvalue="TestNG.CheckboxTest.uncheckAll" />
+        <item itemvalue="TestNG.AlertsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705949859891</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="curs 29 ianuarie 2024">
+      <created>1706711171870</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706711171870</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,7 +239,8 @@
     <MESSAGE value="curs 15 ianuarie 2024" />
     <MESSAGE value="curs 17 ianuarie 2024" />
     <MESSAGE value="curs 22 ianuarie 2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="curs 22 ianuarie 2024" />
+    <MESSAGE value="curs 29 ianuarie 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs 29 ianuarie 2024" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MySeleniumnProject$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1705330608675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
