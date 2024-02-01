@@ -23,6 +23,7 @@ public class UploadTest {
     @Test
     public void testUpload() {
         WebElement fileUpload = driver.findElement(By.id("file-upload"));
+        //update with your own file location!!!
         fileUpload.sendKeys("C:\\Users\\cristina\\IdeaProjects\\MySeleniumnProject\\src\\test\\resources\\test.txt");
 
         WebElement fileSubmit = driver.findElement(By.id("file-submit"));
